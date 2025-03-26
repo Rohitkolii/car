@@ -7,6 +7,7 @@ import DashboardPage from './pages/DashboardPage/DashboardPage'
 import UsersListPage from './pages/UsersListPage/UsersListPage'
 import SubAdminList from './pages/SubAdminList/SubAdminList'
 import CabManagerList from './pages/CabManagerList/CabManagerList'
+import DriverMap from './pages/DriverMap/DriverMap'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         {/* //Login Page  */}
         <Route path='/' element={<DashboardPage />} />
         <Route path='/driver' element={<UsersListPage />} />
+        <Route path='/driver/:id' element={<DriverMap />} />
         <Route path='/subadmin' element={<SubAdminList />} />
         <Route path='/cabmanager' element={<CabManagerList />} />
 

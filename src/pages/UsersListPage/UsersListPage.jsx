@@ -6,11 +6,14 @@ import Styles from '../UsersListPage/UsersListPage.module.css'
 import { ImBin } from "react-icons/im";
 import { FaUserEdit } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import data from './data.json'
 
 
 const UsersListPage = () => {
     
     const[sidebarVisiblity, setSidebarVisiblity] = useState(false)
+    const id = 1;
 
   return (
     <>
@@ -25,10 +28,10 @@ const UsersListPage = () => {
                 setSidebarVisiblity={setSidebarVisiblity}
                 sidebarVisiblity={sidebarVisiblity} />
                 <div className={Styles.bookingtable}>
-                <div style={{width: "95%", margin: "10px auto"}}>
+                {/* <div style={{width: "95%", margin: "10px auto"}}>
                     <label htmlFor="">Search:</label> <br />
                     <input placeholder='Search' type="text" name="" id="" />
-                </div>
+                </div> */}
                     <table>
                         <tr>
                             <th>S.No</th>
@@ -36,57 +39,24 @@ const UsersListPage = () => {
                             <th>Name</th>
                             <th>Actions</th>
                         </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>1111</td>
-                            <td>Aman</td>
-                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                            <ImBin style={{color: "red", fontSize: 20}}/>
-                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2222</td>
-                            <td>Rajiv</td>
-                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                            <ImBin style={{color: "red", fontSize: 20}}/>
-                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>3333</td>
-                            <td>Kishan</td>
-                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                            <ImBin style={{color: "red", fontSize: 20}}/>
-                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>4444</td>
-                            <td>yogesh</td>
-                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                            <ImBin style={{color: "red", fontSize: 20}}/>
-                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>5555</td>
-                            <td>Sachin</td>
-                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                            <ImBin style={{color: "red", fontSize: 20}}/>
-                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                            </td>
-                        </tr>
-                        
+
+                        {
+                            data && data.map((u,i)=>{
+                                return(
+                                    <tr key={i}>
+                                        <td>i</td>
+                                        <td>{u.id}</td>
+                                        <td>{u.name}</td>
+                                        <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                                        <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                                        <ImBin style={{color: "red", fontSize: 20}}/>
+                                        
+                                        <Link to={`${u.id}`}><FaMapLocationDot style={{color: "gold", fontSize: 20}}/></Link>
+                                        </td>
+                                    </tr>
+                                )
+                            })
+                        }            
                     </table>
                 </div>
             </section>

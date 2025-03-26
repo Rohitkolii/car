@@ -1,0 +1,86 @@
+[
+      {
+        "id": "1a2b3c",
+        "name": "Amit Sharma",
+        "age": 29,
+        "latitude": 28.7041,
+        "longitude": 77.1025
+      },
+      {
+        "id": "2b3c4d",
+        "name": "Priya Verma",
+        "age": 24,
+        "latitude": 28.6517,
+        "longitude": 77.2219
+      },
+      {
+        "id": "3c4d5e",
+        "name": "Rahul Gupta",
+        "age": 35,
+        "latitude": 28.6448,
+        "longitude": 77.2167
+      },
+      {
+        "id": "4d5e6f",
+        "name": "Neha Patel",
+        "age": 27,
+        "latitude": 28.6100,
+        "longitude": 77.2300
+      },
+      {
+        "id": "5e6f7g",
+        "name": "Vikram Rao",
+        "age": 31,
+        "latitude": 28.6692,
+        "longitude": 77.4538
+      },
+      {
+        "id": "6f7g8h",
+        "name": "Sanjay Mehta",
+        "age": 40,
+        "latitude": 28.7041,
+        "longitude": 77.1025
+      },
+      {
+        "id": "7g8h9i",
+        "name": "Ananya Bose",
+        "age": 22,
+        "latitude": 28.6139,
+        "longitude": 77.2090
+      },
+      {
+        "id": "8h9i0j",
+        "name": "Rohan Khanna",
+        "age": 28,
+        "latitude": 28.5355,
+        "longitude": 77.3910
+      },
+      {
+        "id": "9i0j1k",
+        "name": "Meera Nair",
+        "age": 33,
+        "latitude": 28.5672,
+        "longitude": 77.2100
+      },
+      {
+        "id": "0j1k2l",
+        "name": "Arjun Deshmukh",
+        "age": 26,
+        "latitude": 28.4595,
+        "longitude": 77.0266
+      },
+      {
+        "id": "1k2l3m",
+        "name": "Rajesh Kumar",
+        "age": 37,
+        "latitude": 28.7041,
+        "longitude": 77.1025
+      },
+      {
+        "id": "2l3m4n",
+        "name": "Sunita Yadav",
+        "age": 30,
+        "latitude": 28.5355,
+        "longitude": 77.3910
+      }
+    ]
