@@ -34,14 +34,33 @@ const UsersListPage = () => {
                             <th>S.No</th>
                             <th>id</th>
                             <th>Name</th>
-                            <th>Actions</th>
+                            {/* <th>Actions</th> */}
                         </tr>
                         
                         <tr>
-                            <td>hello</td>
-                            <td>hello</td>
-                            <td>hello</td>
-                            <td>hello</td>
+                            <td>1</td>
+                            <td>1111</td>
+                            <td>Aman</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2222</td>
+                            <td>sourav</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>3333</td>
+                            <td>jatin</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>4444</td>
+                            <td>Raghav</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>5555</td>
+                            <td>vinay</td>
                         </tr>
                         
                     </table>

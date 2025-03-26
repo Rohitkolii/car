@@ -36,24 +36,56 @@ const UsersListPage = () => {
                             <th>Name</th>
                             <th>Actions</th>
                         </tr>
-                        {/* { */}
-                            {/* // filteredVehicles?.length ? filteredVehicles.map((elm,i)=> { */}
-                                {/* // return( */}
-                                    <tr>
-                                        <td>hello</td>
-                                        <td>hello</td>
-                                        <td>hello</td>
-                                        <td style={{display:'flex', gap:20, justifyContent:'center'}}>
-                                        <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
-                                        <ImBin style={{color: "red", fontSize: 20}}/>
-                                        <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
-                                        </td>
-                                    </tr>
-                                {/* // ) */}
-                            {/* // }) */}
-
-                            {/* // : <h1 style={{margin: "20px auto", textAlign: 'center', textTransform: 'uppercase', color:'#0061ff'}}>No Users Found!</h1> */}
-                        {/* // } */}
+                        <tr>
+                            <td>1</td>
+                            <td>1111</td>
+                            <td>Aman</td>
+                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                            <ImBin style={{color: "red", fontSize: 20}}/>
+                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2222</td>
+                            <td>Rajiv</td>
+                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                            <ImBin style={{color: "red", fontSize: 20}}/>
+                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>3333</td>
+                            <td>Kishan</td>
+                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                            <ImBin style={{color: "red", fontSize: 20}}/>
+                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>4444</td>
+                            <td>yogesh</td>
+                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                            <ImBin style={{color: "red", fontSize: 20}}/>
+                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>5555</td>
+                            <td>Sachin</td>
+                            <td style={{display:'flex', gap:20, justifyContent:'center'}}>
+                            <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
+                            <ImBin style={{color: "red", fontSize: 20}}/>
+                            <FaMapLocationDot style={{color: "gold", fontSize: 20}}/>
+                            </td>
+                        </tr>
                         
                     </table>
                 </div>
