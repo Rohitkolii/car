@@ -51,6 +51,7 @@
     display: flex;
     align-items: center;
     color: white;
+    gap: 5px;
 }
 .sidebar ul li, .Hidesidebar ul li{
     cursor: pointer;
@@ -59,7 +60,7 @@
     
    
     /* height: 55px; */
-    gap: 15px;
+    
     font-size: 16px;
     transition: .5s;
 }

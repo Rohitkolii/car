@@ -39,7 +39,8 @@ const AdminSidebar = ({setSidebarVisiblity, sidebarVisiblity}) => {
                 <li><Link to='/cabmanager'><FaBookReader />Cab Manager</Link></li>
               </ul>
               :""
-              }
+            }
+            <li><Link to='/bookings'><FaBookReader /> Bookings</Link></li>
           </ul>
       </aside>
     </>

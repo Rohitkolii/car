@@ -29,23 +29,23 @@ const DashboardPage = () => {
                 <p className='sublight' style={{fontSize : 15}}>plan, pripritize, and accoplish your tasks with ease.</p>
                 <div className={Styles.dashTop}>
                   <div>
-                    <p><IoCarOutline /></p>
-                    <p>Total Vehicles</p>
+                    <p><VscBook /></p>
+                    <p>Bookings</p>
                     <p>{0}</p>
                   </div>
                   <div>
                     <p><HiOutlineUsers /></p>
-                    <p>Total Customer</p>
+                    <p>Total Drivers</p>
                     <p>{0}</p>
                   </div>
                   <div>
                     <p><PiUserListLight /></p>
-                    <p>Total Vendors</p>
+                    <p>Sub Admin</p>
                     <p>{0}</p>
                   </div>
                   <div>
-                    <p><VscBook /></p>
-                    <p>Total Bookings</p>
+                    <p><IoCarOutline /></p>
+                    <p>Cab managers</p>
                     <p>{0}</p>
                   </div>
                 </div>
