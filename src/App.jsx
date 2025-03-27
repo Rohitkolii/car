@@ -9,6 +9,7 @@ import SubAdminList from './pages/SubAdminList/SubAdminList'
 import CabManagerList from './pages/CabManagerList/CabManagerList'
 import DriverMap from './pages/DriverMap/DriverMap'
 import Bookings from './pages/Bookings/Bookings'
+import Partners from './pages/Partners/Partners'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
         <Route path='/subadmin' element={<SubAdminList />} />
         <Route path='/cabmanager' element={<CabManagerList />} />
         <Route path='/bookings' element={<Bookings />} />
+        <Route path='/partners' element={<Partners />} />
 
         {/* //Error Page is here */}
         {/* <Route path='*' element={<ErrorPage />} /> */}

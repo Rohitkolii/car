@@ -1,0 +1,48 @@
+[
+    {
+      "id": "cm1a2b3c",
+      "name": "Rajesh Verma",
+      "mobile": "+91 9876543210",
+      "email": "rajesh.verma@example.com",
+      "vendor": "XYZ Cabs Pvt Ltd",
+      "assigned_cab_count": 5,
+      "status": "active"
+    },
+    {
+      "id": "cm2b3c4d",
+      "name": "Sunil Kumar",
+      "mobile": "+91 8765432109",
+      "email": "sunil.kumar@example.com",
+      "vendor": "ABC Transport Services",
+      "assigned_cab_count": 3,
+      "status": "active"
+    },
+    {
+      "id": "cm3c4d5e",
+      "name": "Neha Sharma",
+      "mobile": "+91 7654321098",
+      "email": "neha.sharma@example.com",
+      "vendor": "FastTrack Cabs",
+      "assigned_cab_count": 4,
+      "status": "inactive"
+    },
+    {
+      "id": "cm4d5e6f",
+      "name": "Vikas Yadav",
+      "mobile": "+91 6543210987",
+      "email": "vikas.yadav@example.com",
+      "vendor": "CityRide Cabs",
+      "assigned_cab_count": 6,
+      "status": "active"
+    },
+    {
+      "id": "cm5e6f7g",
+      "name": "Anita Mehta",
+      "mobile": "+91 5432109876",
+      "email": "anita.mehta@example.com",
+      "vendor": "Urban Mobility Pvt Ltd",
+      "assigned_cab_count": 2,
+      "status": "on leave"
+    }
+  ]
+  

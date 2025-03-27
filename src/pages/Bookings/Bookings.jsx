@@ -28,6 +28,12 @@ const Bookings = () => {
                         <th>b.Id</th>
                         <th>user</th>
                         <th>cab manager</th>
+                        <th>Employee count</th>
+                        <th>total_distance</th>
+                        <th>pickup_location</th>
+                        <th>dropoff_location</th>
+                        <th>pickup & dropoff time</th>
+                        <th>date</th>
                         <th>Status</th>
                     </tr>
                     {
@@ -46,6 +52,12 @@ const Bookings = () => {
                                     <td>{data.booking_id}</td>
                                     <td >{data.username}</td>
                                     <td>{data.cab_manager_name}</td>
+                                    <td>{data.employee_count}</td>
+                                    <td>{data.total_distance}</td>
+                                    <td>{data.pickup_location}</td>
+                                    <td>{data.dropoff_location}</td>
+                                    <td>{data.pickup_time} <br />to <br /> {data.dropoff_time}</td>
+                                    <td>{data.date}</td>
                                     <td style={{color: colorr}}>{data.status}</td>
                                 </tr>
                             )

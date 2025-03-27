@@ -6,6 +6,7 @@ import { HiOutlineUsers } from "react-icons/hi2";
 import { VscBook } from "react-icons/vsc";
 import { PiUserListLight } from "react-icons/pi";
 import Styles from "./DashboardPage.module.css"
+import { Line } from 'react-chartjs-2';
 
 
 const DashboardPage = () => {
@@ -48,6 +49,42 @@ const DashboardPage = () => {
                     <p>Cab managers</p>
                     <p>{0}</p>
                   </div>
+                </div>
+
+                <div>
+                  {/* <Line 
+                    data={{
+                      labels: ["A", "B", "C"],
+                      datasets: [
+                        {
+                          label: "Booking",
+                          data: ["2","5","6"],
+                          backgroundColor: "#0061ff",
+                          borderColor: "#hdhd54"
+                        },
+                        {
+                          label: "dd",
+                          data: ["2","5","6"],
+                          backgroundColor: "#0061ff",
+                          borderColor: "#hdhd54"
+                        },
+                      ]
+                    }}
+
+                    options={{
+                      elements: {
+                        line:{
+                          tension: 0.5
+                        }
+                      },
+                      plugins:{
+                        title:{
+                          text:"Hello"
+                        }
+                      }
+                    }}
+
+                  /> */}
                 </div>
               </section>
             </div>

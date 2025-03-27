@@ -32,11 +32,16 @@ const UsersListPage = () => {
                     <label htmlFor="">Search:</label> <br />
                     <input placeholder='Search' type="text" name="" id="" />
                 </div> */}
+                <div style={{width: "95%", margin: "20px auto"}}>
+                    <button style={{float:"right"}}>Add driver</button>
+                </div>
                     <table>
                         <tr>
                             <th>S.No</th>
                             <th>id</th>
                             <th>Name</th>
+                            <th>Cab No.</th>
+                            <th>Driving Licence No.</th>
                             <th>Actions</th>
                         </tr>
 
@@ -44,9 +49,11 @@ const UsersListPage = () => {
                             data && data.map((u,i)=>{
                                 return(
                                     <tr key={i}>
-                                        <td>i</td>
+                                        <td>{i+1}</td>
                                         <td>{u.id}</td>
                                         <td>{u.name}</td>
+                                        <td>{u.cabno}</td>
+                                        <td>{u.dlno}</td>
                                         <td style={{display:'flex', gap:20, justifyContent:'center'}}>
                                         <FaUserEdit style={{color: "#0061ff", fontSize: 20}}/>
                                         <ImBin style={{color: "red", fontSize: 20}}/>

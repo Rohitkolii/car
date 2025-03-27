@@ -1,0 +1,38 @@
+[
+    {
+      "id": "sa1a2b3c",
+      "name": "Rohit Malhotra",
+      "email": "rohit.malhotra@example.com",
+      "mobile": "+91 9876543210",
+      "roles": "usermanagement"
+    },
+    {
+      "id": "sa2b3c4d",
+      "name": "Simran Kaur",
+      "email": "simran.kaur@example.com",
+      "mobile": "+91 8765432109",
+      "roles": "bookings"
+    },
+    {
+      "id": "sa3c4d5e",
+      "name": "Arjun Nair",
+      "email": "arjun.nair@example.com",
+      "mobile": "+91 7654321098",
+      "roles": "usermanagement"
+    },
+    {
+      "id": "sa4d5e6f",
+      "name": "Pooja Sharma",
+      "email": "pooja.sharma@example.com",
+      "mobile": "+91 6543210987",
+      "roles": "usermanagement"
+    },
+    {
+      "id": "sa5e6f7g",
+      "name": "Kunal Mehta",
+      "email": "kunal.mehta@example.com",
+      "mobile": "+91 5432109876",
+      "roles": "bookings"
+    }
+  ]
+  

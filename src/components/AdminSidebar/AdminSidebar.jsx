@@ -23,8 +23,8 @@ const AdminSidebar = ({setSidebarVisiblity, sidebarVisiblity}) => {
       <aside className={!sidebarVisiblity ? Styles.sidebar : Styles.Hidesidebar}>
         <div className={Styles.sidebarHead}>
           <div>
-            <img src="/images/wheel.png" alt="" />
-            <p><span style={{color: "#0061ff"}}>R</span>entwheels<span style={{color: "#0061ff"}}>.</span></p>
+            {/* <img src="/images/wheel.png" alt="" /> */}
+            <p><span style={{color: "#0061ff"}}>Admin</span>Panel<span style={{color: "#0061ff"}}>.</span></p>
           </div>
           <IoMdClose className={Styles.closeMenu} onClick={()=> setSidebarVisiblity(!sidebarVisiblity)} />
         </div>
@@ -41,6 +41,7 @@ const AdminSidebar = ({setSidebarVisiblity, sidebarVisiblity}) => {
               :""
             }
             <li><Link to='/bookings'><FaBookReader /> Bookings</Link></li>
+            <li><Link to='/partners'><FaBookReader /> Partners</Link></li>
           </ul>
       </aside>
     </>

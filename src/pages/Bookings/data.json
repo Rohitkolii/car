@@ -1,37 +1,73 @@
 [
-      {
-        "booking_id": "b1a2b3c",
-        "username": "Amit Sharma",
-        "cab_manager_name": "Rajesh Verma",
-        "image_url": "https://example.com/image1.jpg",
-        "status": "active"
-      },
-      {
-        "booking_id": "b2b3c4d",
-        "username": "Priya Verma",
-        "cab_manager_name": "Sunil Kumar",
-        "image_url": "https://example.com/image2.jpg",
-        "status": "online"
-      },
-      {
-        "booking_id": "b3c4d5e",
-        "username": "Rahul Gupta",
-        "cab_manager_name": "Neha Sharma",
-        "image_url": "https://example.com/image3.jpg",
-        "status": "on trip"
-      },
-      {
-        "booking_id": "b4d5e6f",
-        "username": "Neha Patel",
-        "cab_manager_name": "Vikas Yadav",
-        "image_url": "https://example.com/image4.jpg",
-        "status": "active"
-      },
-      {
-        "booking_id": "b5e6f7g",
-        "username": "Vikram Rao",
-        "cab_manager_name": "Anita Mehta",
-        "image_url": "https://example.com/image5.jpg",
-        "status": "on trip"
-      }
-    ]
+    {
+      "booking_id": "b1a2b3c",
+      "username": "Amit Sharma",
+      "cab_manager_name": "Rajesh Verma",
+      "image_url": "https://example.com/image1.jpg",
+      "status": "active",
+      "employee_count": 3,
+      "total_distance": "15 km",
+      "pickup_location": "Connaught Place, Delhi",
+      "dropoff_location": "Noida Sector 62",
+      "pickup_time": "08:30 AM",
+      "dropoff_time": "09:15 AM",
+      "date": "2025-03-27"
+    },
+    {
+      "booking_id": "b2b3c4d",
+      "username": "Priya Verma",
+      "cab_manager_name": "Sunil Kumar",
+      "image_url": "https://example.com/image2.jpg",
+      "status": "online",
+      "employee_count": 2,
+      "total_distance": "10 km",
+      "pickup_location": "Saket, Delhi",
+      "dropoff_location": "Gurgaon Cyber City",
+      "pickup_time": "07:45 AM",
+      "dropoff_time": "08:30 AM",
+      "date": "2025-03-27"
+    },
+    {
+      "booking_id": "b3c4d5e",
+      "username": "Rahul Gupta",
+      "cab_manager_name": "Neha Sharma",
+      "image_url": "https://example.com/image3.jpg",
+      "status": "on trip",
+      "employee_count": 4,
+      "total_distance": "22 km",
+      "pickup_location": "Dwarka, Delhi",
+      "dropoff_location": "Connaught Place, Delhi",
+      "pickup_time": "07:30 AM",
+      "dropoff_time": "08:15 AM",
+      "date": "2025-03-27"
+    },
+    {
+      "booking_id": "b4d5e6f",
+      "username": "Neha Patel",
+      "cab_manager_name": "Vikas Yadav",
+      "image_url": "https://example.com/image4.jpg",
+      "status": "active",
+      "employee_count": 3,
+      "total_distance": "18 km",
+      "pickup_location": "Lajpat Nagar, Delhi",
+      "dropoff_location": "Gurgaon MG Road",
+      "pickup_time": "08:15 AM",
+      "dropoff_time": "09:00 AM",
+      "date": "2025-03-27"
+    },
+    {
+      "booking_id": "b5e6f7g",
+      "username": "Vikram Rao",
+      "cab_manager_name": "Anita Mehta",
+      "image_url": "https://example.com/image5.jpg",
+      "status": "on trip",
+      "employee_count": 5,
+      "total_distance": "30 km",
+      "pickup_location": "Janakpuri, Delhi",
+      "dropoff_location": "Noida Sector 18",
+      "pickup_time": "07:00 AM",
+      "dropoff_time": "08:00 AM",
+      "date": "2025-03-27"
+    }
+  ]
+  

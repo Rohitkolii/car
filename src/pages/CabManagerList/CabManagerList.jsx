@@ -7,6 +7,7 @@ import { ImBin } from "react-icons/im";
 import { FaUserEdit } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 
+import data from './data.json'
 
 const UsersListPage = () => {
     
@@ -34,69 +35,34 @@ const UsersListPage = () => {
                             <th>S.No</th>
                             <th>id</th>
                             <th>Name</th>
+                            <th>Moble</th>
+                            <th>Email</th>
+                            <th>vendor</th>
+                            <th>Assigned Cab</th>
+                            <th>Status</th>
                             <th>Actions</th>
                         </tr>
-                                    <tr>
-                                        <td>hello</td>
-                                        <td>hello</td>
-                                        <td>hello</td>
+                        {
+                            data && data.map((cm,i)=>{
+                                return(
+                                    <tr key={i}>
+                                        <td>{i+1}</td>
+                                        <td>{cm.id}</td>
+                                        <td>{cm.name}</td>
+                                        <td>{cm.mobile}</td>
+                                        <td>{cm.email}</td>
+                                        <td>{cm.vendor}</td>
+                                        <td>{cm.assigned_cab_count}</td>
+                                        <td>{cm.status}</td>
                                         <td>
                                             <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
                                                 Appoint
                                             </span>
                                         </td>
                                     </tr>
-
-                                    <tr>
-                            <td>1</td>
-                            <td>1111</td>
-                            <td>Aman</td>
-                            <td>
-                                <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
-                                    Appoint
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2222</td>
-                            <td>sourav</td>
-                            <td>
-                                <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
-                                    Appoint
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>3333</td>
-                            <td>jatin</td>
-                            <td>
-                                <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
-                                    Appoint
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>4444</td>
-                            <td>Raghav</td>
-                            <td>
-                                <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
-                                    Appoint
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>5555</td>
-                            <td>vinay</td>
-                            <td>
-                            <span style={{color:'green', backgroundColor:'whitesmoke', padding:'3px 15px', borderRadius:12}}>
-                                Appoint
-                            </span>
-                        </td>
-                        </tr>
+                                )
+                            })
+                        }
                     </table>
                 </div>
             </section>

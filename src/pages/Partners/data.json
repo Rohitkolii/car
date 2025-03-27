@@ -1,0 +1,37 @@
+[
+  {
+    "id": "p1a2b3c",
+    "name": "Global Rides Pvt Ltd",
+    "email": "contact@globalrides.com",
+    "contact": "+91 9876543210",
+    "location": "Mumbai, India"
+  },
+  {
+    "id": "p2b3c4d",
+    "name": "Urban Transport Solutions",
+    "email": "info@urbantransport.com",
+    "contact": "+91 8765432109",
+    "location": "Delhi, India"
+  },
+  {
+    "id": "p3c4d5e",
+    "name": "Speedy Cabs",
+    "email": "support@speedycabs.com",
+    "contact": "+91 7654321098",
+    "location": "Bangalore, India"
+  },
+  {
+    "id": "p4d5e6f",
+    "name": "Metro Mobility Services",
+    "email": "hello@metromobility.com",
+    "contact": "+91 6543210987",
+    "location": "Chennai, India"
+  },
+  {
+    "id": "p5e6f7g",
+    "name": "FastTrack Travels",
+    "email": "fasttrack@travels.com",
+    "contact": "+91 5432109876",
+    "location": "Hyderabad, India"
+  }
+]
