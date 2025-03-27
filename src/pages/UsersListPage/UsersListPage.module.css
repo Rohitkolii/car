@@ -56,6 +56,28 @@
     color: white;
 }
 
+.emp{
+    width: 95%;
+    /* height: 95%; */
+    background-color: #fff;
+    border: 1px solid black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    padding: 20px;
+}
+
+.bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.525);
+}
+
 
 @media only screen and (max-width:1000px){
     

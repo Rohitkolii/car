@@ -10,6 +10,7 @@ import { MdAdminPanelSettings } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { HiOutlineDocumentPlus } from "react-icons/hi2";
 import { MdManageHistory } from "react-icons/md";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 
@@ -30,7 +31,7 @@ const AdminSidebar = ({setSidebarVisiblity, sidebarVisiblity}) => {
         </div>
           <ul>
             <li><Link to='/'><MdDashboard /> Dashboard</Link></li>
-            <li onClick={()=> setShowuser(!Showuser)}><FaUsersCog /> User Management</li>
+            <li style={{display:'flex', alignItems:'center'}} onClick={()=> setShowuser(!Showuser)}><FaUsersCog /> User Management <IoIosArrowForward style={{fontSize:12, marginLeft:5}} /></li>
             {
               Showuser ?
               <ul className={Styles.subp}>

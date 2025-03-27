@@ -27,6 +27,7 @@ const UsersListPage = () => {
                 sidebarVisiblity={sidebarVisiblity} />
                 <div className={Styles.bookingtable}>
                 <div style={{width: "95%", margin: "10px auto"}}>
+                    <h3>Sub Admin</h3>
                     <label htmlFor="">Search:</label> <br />
                     <input placeholder='Search' type="text" name="" id="" />
                 </div>

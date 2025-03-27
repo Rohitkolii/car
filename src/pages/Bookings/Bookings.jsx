@@ -19,6 +19,7 @@ const Bookings = () => {
             sidebarVisiblity={sidebarVisiblity} />
             <div className={Styles.bookingtable}>
                 <div style={{width: "95%", margin: "10px auto"}}>
+                    <h1>Bookings</h1>
                     <label htmlFor="">Search:</label> <br />
                     <input onChange={(e)=> setSearchQuery(e.target.value)} placeholder='Search' type="text" name="" id="" />
                 </div>

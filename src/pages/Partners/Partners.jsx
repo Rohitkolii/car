@@ -35,6 +35,9 @@ const Partners = () => {
                     <input placeholder='Search' type="text" name="" id="" />
                 </div> */}
                 <div style={{width: "95%", margin: "20px auto"}}>
+                    <h3>Partners</h3>
+                    <label htmlFor="">Search:</label> <br />
+                    <input placeholder='Search' type="text" name="" id="" />
                     <button style={{float:"right"}}>Add partner</button>
                 </div>
                     <table>
