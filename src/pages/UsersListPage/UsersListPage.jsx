@@ -15,15 +15,7 @@ import data from './data.json'
 const UsersListPage = () => {
     
     const[sidebarVisiblity, setSidebarVisiblity] = useState(false)
-    const[showemp, setshowemp] = useState(false)
-    const[empdata, setempdata] = useState([])
-
-    const id = 1;
-
-    const viewCard =(u)=>{
-        setshowemp(true)
-        setempdata(u.employee_details)
-    }
+    
 
   return (
     <>
@@ -81,39 +73,7 @@ const UsersListPage = () => {
                         }            
                     </table>
 
-                    {
-                        showemp ?
-                        <div className={Styles.emp}>
-                            <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                            <h3>Employee Details</h3>
-                            <RiCloseLargeFill style={{cursor:'pointer'}} onClick={()=> setshowemp(false)}/>
-                            </div>
-                            <table>
-                            {
-
-                                empdata?.map((e) => {
-                                    return(
-                                        <tr>
-                                            <td>{e.employee_id}</td>
-                                            <td>{e.name}</td>
-                                            <td>{e.phone}</td>
-                                            <td>{e.email}</td>
-                                            <td>{e.pickup_location}</td>
-                                            <td>{e.drop_location}</td>
-                                            <td>{e.pickup_time}</td>
-                                            <td>{e.drop_time}</td>
-                                        </tr>
-                                    )
-                                })
-                            }
-                        </table>
-                        </div>
-                        :""
-                    }
-
-                    {
-                        showemp ? <div className={Styles.bg}></div> : ""
-                    }
+                    
                 </div>
             </section>
         </div>

@@ -11,7 +11,40 @@
       "dropoff_location": "Noida Sector 62",
       "pickup_time": "08:30 AM",
       "dropoff_time": "09:15 AM",
-      "date": "2025-03-27"
+      "date": "2025-03-27",
+      "employee_details": [
+        {
+          "employee_id": "E1001",
+          "name": "Rajesh Verma",
+          "phone": "9876543210",
+          "email": "rajesh.verma@example.com",
+          "pickup_location": "Connaught Place, Delhi",
+          "drop_location": "India Gate, Delhi",
+          "pickup_time": "2025-03-26T09:00:00",
+          "drop_time": "2025-03-26T09:30:00"
+        },
+        {
+          "employee_id": "E1002",
+          "name": "Suresh Gupta",
+          "phone": "9876543215",
+          "email": "suresh.gupta@example.com",
+          "pickup_location": "Karol Bagh, Delhi",
+          "drop_location": "Rajiv Chowk, Delhi",
+          "pickup_time": "2025-03-26T09:15:00",
+          "drop_time": "2025-03-26T09:45:00"
+        },
+        {
+          "employee_id": "E1003",
+          "name": "Anita Sharma",
+          "phone": "9876543216",
+          "email": "anita.sharma@example.com",
+          "pickup_location": "Saket, Delhi",
+          "drop_location": "Hauz Khas, Delhi",
+          "pickup_time": "2025-03-26T09:30:00",
+          "drop_time": "2025-03-26T10:00:00"
+        }
+      ]
+        
     },
     {
       "booking_id": "b2b3c4d",
@@ -25,7 +58,40 @@
       "dropoff_location": "Gurgaon Cyber City",
       "pickup_time": "07:45 AM",
       "dropoff_time": "08:30 AM",
-      "date": "2025-03-27"
+      "date": "2025-03-27",
+      "employee_details": [
+        {
+          "employee_id": "E1001",
+          "name": "Rajesh Verma",
+          "phone": "9876543210",
+          "email": "rajesh.verma@example.com",
+          "pickup_location": "Connaught Place, Delhi",
+          "drop_location": "India Gate, Delhi",
+          "pickup_time": "2025-03-26T09:00:00",
+          "drop_time": "2025-03-26T09:30:00"
+        },
+        {
+          "employee_id": "E1002",
+          "name": "Suresh Gupta",
+          "phone": "9876543215",
+          "email": "suresh.gupta@example.com",
+          "pickup_location": "Karol Bagh, Delhi",
+          "drop_location": "Rajiv Chowk, Delhi",
+          "pickup_time": "2025-03-26T09:15:00",
+          "drop_time": "2025-03-26T09:45:00"
+        },
+        {
+          "employee_id": "E1003",
+          "name": "Anita Sharma",
+          "phone": "9876543216",
+          "email": "anita.sharma@example.com",
+          "pickup_location": "Saket, Delhi",
+          "drop_location": "Hauz Khas, Delhi",
+          "pickup_time": "2025-03-26T09:30:00",
+          "drop_time": "2025-03-26T10:00:00"
+        }
+      ]
+        
     },
     {
       "booking_id": "b3c4d5e",
@@ -39,7 +105,40 @@
       "dropoff_location": "Connaught Place, Delhi",
       "pickup_time": "07:30 AM",
       "dropoff_time": "08:15 AM",
-      "date": "2025-03-27"
+      "date": "2025-03-27",
+      "employee_details": [
+        {
+          "employee_id": "E2001",
+          "name": "Pankaj Singh",
+          "phone": "9876543220",
+          "email": "pankaj.singh@example.com",
+          "pickup_location": "Lajpat Nagar, Delhi",
+          "drop_location": "Kalkaji, Delhi",
+          "pickup_time": "2025-03-26T08:00:00",
+          "drop_time": "2025-03-26T08:30:00"
+        },
+        {
+          "employee_id": "E2002",
+          "name": "Neha Malhotra",
+          "phone": "9876543225",
+          "email": "neha.malhotra@example.com",
+          "pickup_location": "Dwarka, Delhi",
+          "drop_location": "Janakpuri, Delhi",
+          "pickup_time": "2025-03-26T08:15:00",
+          "drop_time": "2025-03-26T08:45:00"
+        },
+        {
+          "employee_id": "E2003",
+          "name": "Karan Mehta",
+          "phone": "9876543230",
+          "email": "karan.mehta@example.com",
+          "pickup_location": "Vasant Kunj, Delhi",
+          "drop_location": "Green Park, Delhi",
+          "pickup_time": "2025-03-26T08:30:00",
+          "drop_time": "2025-03-26T09:00:00"
+        }
+      ]
+        
     },
     {
       "booking_id": "b4d5e6f",
@@ -53,7 +152,40 @@
       "dropoff_location": "Gurgaon MG Road",
       "pickup_time": "08:15 AM",
       "dropoff_time": "09:00 AM",
-      "date": "2025-03-27"
+      "date": "2025-03-27",
+      "employee_details": [
+        {
+          "employee_id": "E3001",
+          "name": "Ravi Kapoor",
+          "phone": "9876543240",
+          "email": "ravi.kapoor@example.com",
+          "pickup_location": "Sadar Bazaar, Delhi",
+          "drop_location": "Chandni Chowk, Delhi",
+          "pickup_time": "2025-03-26T07:45:00",
+          "drop_time": "2025-03-26T08:15:00"
+        },
+        {
+          "employee_id": "E3002",
+          "name": "Simran Kaur",
+          "phone": "9876543245",
+          "email": "simran.kaur@example.com",
+          "pickup_location": "Punjabi Bagh, Delhi",
+          "drop_location": "Rajouri Garden, Delhi",
+          "pickup_time": "2025-03-26T08:00:00",
+          "drop_time": "2025-03-26T08:30:00"
+        },
+        {
+          "employee_id": "E3003",
+          "name": "Manoj Tiwari",
+          "phone": "9876543250",
+          "email": "manoj.tiwari@example.com",
+          "pickup_location": "Pitampura, Delhi",
+          "drop_location": "Rohini, Delhi",
+          "pickup_time": "2025-03-26T08:15:00",
+          "drop_time": "2025-03-26T08:45:00"
+        }
+      ]
+        
     },
     {
       "booking_id": "b5e6f7g",
@@ -67,7 +199,40 @@
       "dropoff_location": "Noida Sector 18",
       "pickup_time": "07:00 AM",
       "dropoff_time": "08:00 AM",
-      "date": "2025-03-27"
+      "date": "2025-03-27",
+      "employee_details": [
+        {
+          "employee_id": "E4001",
+          "name": "Arjun Mehta",
+          "phone": "9876543260",
+          "email": "arjun.mehta@example.com",
+          "pickup_location": "Lajpat Nagar, Delhi",
+          "drop_location": "Kalkaji, Delhi",
+          "pickup_time": "2025-03-26T09:00:00",
+          "drop_time": "2025-03-26T09:30:00"
+        },
+        {
+          "employee_id": "E4002",
+          "name": "Neha Reddy",
+          "phone": "9876543265",
+          "email": "neha.reddy@example.com",
+          "pickup_location": "Janakpuri, Delhi",
+          "drop_location": "Dwarka, Delhi",
+          "pickup_time": "2025-03-26T09:15:00",
+          "drop_time": "2025-03-26T09:45:00"
+        },
+        {
+          "employee_id": "E4003",
+          "name": "Vikrant Singh",
+          "phone": "9876543270",
+          "email": "vikrant.singh@example.com",
+          "pickup_location": "Mayur Vihar, Delhi",
+          "drop_location": "Noida Sector 18, Delhi",
+          "pickup_time": "2025-03-26T09:30:00",
+          "drop_time": "2025-03-26T10:00:00"
+        }
+      ]
+        
     }
   ]
   

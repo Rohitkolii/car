@@ -6,39 +6,7 @@
     "latitude": 28.7041,
     "longitude": 77.1025,
     "cabno": "DL 01 AB 1234",
-    "dlno": "DL-012345678910",
-    "employee_details": [
-        {
-          "employee_id": "E1001",
-          "name": "Rajesh Verma",
-          "phone": "9876543210",
-          "email": "rajesh.verma@example.com",
-          "pickup_location": "Connaught Place, Delhi",
-          "drop_location": "India Gate, Delhi",
-          "pickup_time": "2025-03-26T09:00:00",
-          "drop_time": "2025-03-26T09:30:00"
-        },
-        {
-          "employee_id": "E1002",
-          "name": "Suresh Gupta",
-          "phone": "9876543215",
-          "email": "suresh.gupta@example.com",
-          "pickup_location": "Karol Bagh, Delhi",
-          "drop_location": "Rajiv Chowk, Delhi",
-          "pickup_time": "2025-03-26T09:15:00",
-          "drop_time": "2025-03-26T09:45:00"
-        },
-        {
-          "employee_id": "E1003",
-          "name": "Anita Sharma",
-          "phone": "9876543216",
-          "email": "anita.sharma@example.com",
-          "pickup_location": "Saket, Delhi",
-          "drop_location": "Hauz Khas, Delhi",
-          "pickup_time": "2025-03-26T09:30:00",
-          "drop_time": "2025-03-26T10:00:00"
-        }
-      ]
+    "dlno": "DL-012345678910"
 },
 {
     "id": "2b3c4d",
@@ -47,39 +15,7 @@
     "latitude": 28.6517,
     "longitude": 77.2219,
     "cabno": "DL 02 XY 5678",
-    "dlno": "DL-023456789101",
-    "employee_details": [
-        {
-          "employee_id": "E1001",
-          "name": "Rajesh Verma",
-          "phone": "9876543210",
-          "email": "rajesh.verma@example.com",
-          "pickup_location": "Connaught Place, Delhi",
-          "drop_location": "India Gate, Delhi",
-          "pickup_time": "2025-03-26T09:00:00",
-          "drop_time": "2025-03-26T09:30:00"
-        },
-        {
-          "employee_id": "E1002",
-          "name": "Suresh Gupta",
-          "phone": "9876543215",
-          "email": "suresh.gupta@example.com",
-          "pickup_location": "Karol Bagh, Delhi",
-          "drop_location": "Rajiv Chowk, Delhi",
-          "pickup_time": "2025-03-26T09:15:00",
-          "drop_time": "2025-03-26T09:45:00"
-        },
-        {
-          "employee_id": "E1003",
-          "name": "Anita Sharma",
-          "phone": "9876543216",
-          "email": "anita.sharma@example.com",
-          "pickup_location": "Saket, Delhi",
-          "drop_location": "Hauz Khas, Delhi",
-          "pickup_time": "2025-03-26T09:30:00",
-          "drop_time": "2025-03-26T10:00:00"
-        }
-      ]
+    "dlno": "DL-023456789101"
 },
 {
     "id": "3c4d5e",
@@ -88,39 +24,7 @@
     "latitude": 28.6448,
     "longitude": 77.2167,
     "cabno": "DL 03 CD 9101",
-    "dlno": "DL-034567891012",
-    "employee_details": [
-        {
-          "employee_id": "E1001",
-          "name": "Rajesh Verma",
-          "phone": "9876543210",
-          "email": "rajesh.verma@example.com",
-          "pickup_location": "Connaught Place, Delhi",
-          "drop_location": "India Gate, Delhi",
-          "pickup_time": "2025-03-26T09:00:00",
-          "drop_time": "2025-03-26T09:30:00"
-        },
-        {
-          "employee_id": "E1002",
-          "name": "Suresh Gupta",
-          "phone": "9876543215",
-          "email": "suresh.gupta@example.com",
-          "pickup_location": "Karol Bagh, Delhi",
-          "drop_location": "Rajiv Chowk, Delhi",
-          "pickup_time": "2025-03-26T09:15:00",
-          "drop_time": "2025-03-26T09:45:00"
-        },
-        {
-          "employee_id": "E1003",
-          "name": "Anita Sharma",
-          "phone": "9876543216",
-          "email": "anita.sharma@example.com",
-          "pickup_location": "Saket, Delhi",
-          "drop_location": "Hauz Khas, Delhi",
-          "pickup_time": "2025-03-26T09:30:00",
-          "drop_time": "2025-03-26T10:00:00"
-        }
-      ]
+    "dlno": "DL-034567891012"
 },
 {
     "id": "4d5e6f",
@@ -169,39 +73,7 @@
     "latitude": 28.6692,
     "longitude": 77.4538,
     "cabno": "DL 05 GH 6789",
-    "dlno": "DL-056789101234",
-    "employee_details": [
-        {
-          "employee_id": "E1001",
-          "name": "Rajesh Verma",
-          "phone": "9876543210",
-          "email": "rajesh.verma@example.com",
-          "pickup_location": "Connaught Place, Delhi",
-          "drop_location": "India Gate, Delhi",
-          "pickup_time": "2025-03-26T09:00:00",
-          "drop_time": "2025-03-26T09:30:00"
-        },
-        {
-          "employee_id": "E1002",
-          "name": "Suresh Gupta",
-          "phone": "9876543215",
-          "email": "suresh.gupta@example.com",
-          "pickup_location": "Karol Bagh, Delhi",
-          "drop_location": "Rajiv Chowk, Delhi",
-          "pickup_time": "2025-03-26T09:15:00",
-          "drop_time": "2025-03-26T09:45:00"
-        },
-        {
-          "employee_id": "E1003",
-          "name": "Anita Sharma",
-          "phone": "9876543216",
-          "email": "anita.sharma@example.com",
-          "pickup_location": "Saket, Delhi",
-          "drop_location": "Hauz Khas, Delhi",
-          "pickup_time": "2025-03-26T09:30:00",
-          "drop_time": "2025-03-26T10:00:00"
-        }
-      ]
+    "dlno": "DL-056789101234"
 },
 {
     "id": "6f7g8h",
@@ -210,38 +82,6 @@
     "latitude": 28.7041,
     "longitude": 77.1025,
     "cabno": "DL 06 IJ 1122",
-    "dlno": "DL-067891012345",
-    "employee_details": [
-        {
-          "employee_id": "E1001",
-          "name": "Rajesh Verma",
-          "phone": "9876543210",
-          "email": "rajesh.verma@example.com",
-          "pickup_location": "Connaught Place, Delhi",
-          "drop_location": "India Gate, Delhi",
-          "pickup_time": "2025-03-26T09:00:00",
-          "drop_time": "2025-03-26T09:30:00"
-        },
-        {
-          "employee_id": "E1002",
-          "name": "Suresh Gupta",
-          "phone": "9876543215",
-          "email": "suresh.gupta@example.com",
-          "pickup_location": "Karol Bagh, Delhi",
-          "drop_location": "Rajiv Chowk, Delhi",
-          "pickup_time": "2025-03-26T09:15:00",
-          "drop_time": "2025-03-26T09:45:00"
-        },
-        {
-          "employee_id": "E1003",
-          "name": "Anita Sharma",
-          "phone": "9876543216",
-          "email": "anita.sharma@example.com",
-          "pickup_location": "Saket, Delhi",
-          "drop_location": "Hauz Khas, Delhi",
-          "pickup_time": "2025-03-26T09:30:00",
-          "drop_time": "2025-03-26T10:00:00"
-        }
-      ]
+    "dlno": "DL-067891012345"
 }
   ]
